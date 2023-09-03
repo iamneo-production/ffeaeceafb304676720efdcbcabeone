@@ -14,7 +14,27 @@ body{
 }
 
 .box{
-  display:
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 35px;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+  width: 75px;
+  height: 75px;
+  font-size: 50px;
+  font-weight: 500;
+  text-align: center;
+  border: 2px solid #000;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
 }
    
 
