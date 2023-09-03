@@ -35,6 +35,28 @@ body{
   border: 2px solid #000;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color:rgba(255, 255, 255, 0.9); 
+}
+
+.btn:disabled{
+  color: #000;
+  cursor: not-allowed;
+}
+
+.result-container{
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 2px solid #000;
+  max-width: 200px;
+  text-align: center;
+}
+
+.result-text{
+  color: #fff;
+  
 }
    
 
