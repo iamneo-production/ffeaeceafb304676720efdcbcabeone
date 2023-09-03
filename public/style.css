@@ -1,6 +1,3 @@
-
-@import url("https://fonts.googleapis.com/css2?family=Radio+Canada:wght@400;500;600;700&display=swap");
-
 body {
     font-family: Arial,sans-serif;
     background-colour: #f0f0f0;
@@ -42,39 +39,39 @@ body {
    background-color:rgba(255, 255, 255, 0.9); 
 }
 
-.btn:disabled {}
-  color: #000;
-  cursor: not-allowed;
+.btn:disabled {
+   color: #000;
+   cursor: not-allowed;
 }
 
-.result-container{
-  background-color: rgba(255, 255, 255, 0.7);
-  border: 2px solid #000;
-  max-width: 200px;
-  text-align: center;
+.result-container {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid #000;
+    max-width: 200px;
+    text-align: center;
 }
 
-.result-text{
-  color: #fff;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  font-size: 25px;
+.result-text {
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
 }
 
-.reset-section{
-  text-align: center;
+.reset-section {
+    text-align: center;
 }
 
-.reset-btn{
-  border: 2px solid #000;
-  color: #000;
-  background-color: transparent;
-  cursor: not-allowed;
+.reset-btn {
+    border: 2px solid #000;
+    color: #000;
+    background-color: transparent;
+    cursor: not-allowed;
 }
 
-.reset-btn:hover{
-  background-color: #000;
-  color: #fff;
-  transition: background-color 0.3s ease-in-out;;
+.reset-btn:hover {
+    background-color: #000;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;;
 }
    
 
